@@ -1,0 +1,1 @@
+Basically, I really have no attention span at all and got used to watching reels and videos while holding the side of my screen to speed them up, so I created an extension that does the same thing but on DESKTOP. Use ALT to speed up the video, and just let go for it to return to normal speed. You can also edit the speed within the extension itself.
