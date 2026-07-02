@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Hold to Speed Up",
+  "version": "1.1",
+  "description": "Hold the Alt key to speed up videos.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"],
+      "all_frames": true
+    }
+  ]
+}
